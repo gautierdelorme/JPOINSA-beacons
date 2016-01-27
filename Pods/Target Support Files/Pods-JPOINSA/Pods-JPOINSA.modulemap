@@ -1,0 +1,6 @@
+framework module Pods_JPOINSA {
+  umbrella header "Pods-JPOINSA-umbrella.h"
+
+  export *
+  module * { export * }
+}

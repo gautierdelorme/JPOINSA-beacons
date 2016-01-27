@@ -9,19 +9,40 @@
 /* Begin PBXBuildFile section */
 		13CDE1961C576AB90099B4FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CDE1951C576AB90099B4FC /* AppDelegate.swift */; };
 		13CDE1981C576ABA0099B4FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CDE1971C576ABA0099B4FC /* ViewController.swift */; };
-		13CDE19B1C576ABA0099B4FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13CDE1991C576ABA0099B4FC /* Main.storyboard */; };
 		13CDE19D1C576ABA0099B4FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13CDE19C1C576ABA0099B4FC /* Assets.xcassets */; };
 		13CDE1A01C576ABA0099B4FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13CDE19E1C576ABA0099B4FC /* LaunchScreen.storyboard */; };
+		13CDE1A91C5772D00099B4FC /* BeaconManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CDE1A81C5772D00099B4FC /* BeaconManager.swift */; };
+		13CDE1AF1C57849A0099B4FC /* UIColor+JPOINSA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CDE1AE1C57849A0099B4FC /* UIColor+JPOINSA.swift */; };
+		13CDE1B11C57882C0099B4FC /* PresentationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CDE1B01C57882C0099B4FC /* PresentationManager.swift */; };
+		13CDE1B31C5788BE0099B4FC /* Presentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CDE1B21C5788BE0099B4FC /* Presentation.swift */; };
+		13CDE1B91C57C4DD0099B4FC /* PresentationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CDE1B81C57C4DD0099B4FC /* PresentationCell.swift */; };
+		13CDE1BB1C58C19E0099B4FC /* String+JPOINSA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CDE1BA1C58C19E0099B4FC /* String+JPOINSA.swift */; };
+		13CDE1BD1C58C2160099B4FC /* PresentationsTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CDE1BC1C58C2160099B4FC /* PresentationsTable.swift */; };
+		13CDE1BF1C58C52E0099B4FC /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CDE1BE1C58C52E0099B4FC /* CustomLabel.swift */; };
+		13CDE1C11C58C6320099B4FC /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CDE1C01C58C6320099B4FC /* CustomImageView.swift */; };
+		8E085AFD785DCD840C028F0E /* Pods_JPOINSA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C198CE3138ED5FFCCF3CE75 /* Pods_JPOINSA.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		026E829480EEB59626235F7F /* Pods-JPOINSA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JPOINSA.release.xcconfig"; path = "Pods/Target Support Files/Pods-JPOINSA/Pods-JPOINSA.release.xcconfig"; sourceTree = "<group>"; };
 		13CDE1921C576AB90099B4FC /* JPOINSA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JPOINSA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13CDE1951C576AB90099B4FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		13CDE1971C576ABA0099B4FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		13CDE19A1C576ABA0099B4FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		13CDE19C1C576ABA0099B4FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13CDE19F1C576ABA0099B4FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		13CDE1A11C576ABA0099B4FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13CDE1A71C576C360099B4FC /* ObjCBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjCBridge.h; sourceTree = "<group>"; };
+		13CDE1A81C5772D00099B4FC /* BeaconManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeaconManager.swift; sourceTree = "<group>"; };
+		13CDE1AE1C57849A0099B4FC /* UIColor+JPOINSA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+JPOINSA.swift"; sourceTree = "<group>"; };
+		13CDE1B01C57882C0099B4FC /* PresentationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentationManager.swift; sourceTree = "<group>"; };
+		13CDE1B21C5788BE0099B4FC /* Presentation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Presentation.swift; sourceTree = "<group>"; };
+		13CDE1B81C57C4DD0099B4FC /* PresentationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentationCell.swift; sourceTree = "<group>"; };
+		13CDE1BA1C58C19E0099B4FC /* String+JPOINSA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+JPOINSA.swift"; sourceTree = "<group>"; };
+		13CDE1BC1C58C2160099B4FC /* PresentationsTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentationsTable.swift; sourceTree = "<group>"; };
+		13CDE1BE1C58C52E0099B4FC /* CustomLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
+		13CDE1C01C58C6320099B4FC /* CustomImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
+		6C198CE3138ED5FFCCF3CE75 /* Pods_JPOINSA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JPOINSA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BB5F182940F86DA694C336A /* Pods-JPOINSA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JPOINSA.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JPOINSA/Pods-JPOINSA.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E085AFD785DCD840C028F0E /* Pods_JPOINSA.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +62,8 @@
 			children = (
 				13CDE1941C576AB90099B4FC /* JPOINSA */,
 				13CDE1931C576AB90099B4FC /* Products */,
+				D23C2C50EB39996232613737 /* Pods */,
+				CC366D5C825BE88D174BE52D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +79,79 @@
 			isa = PBXGroup;
 			children = (
 				13CDE1951C576AB90099B4FC /* AppDelegate.swift */,
-				13CDE1971C576ABA0099B4FC /* ViewController.swift */,
-				13CDE1991C576ABA0099B4FC /* Main.storyboard */,
+				13CDE1B51C57AF7F0099B4FC /* Views */,
+				13CDE1B41C5788C30099B4FC /* Models */,
+				13CDE1AC1C5783C30099B4FC /* Tools */,
+				13CDE1A71C576C360099B4FC /* ObjCBridge.h */,
 				13CDE19C1C576ABA0099B4FC /* Assets.xcassets */,
 				13CDE19E1C576ABA0099B4FC /* LaunchScreen.storyboard */,
 				13CDE1A11C576ABA0099B4FC /* Info.plist */,
 			);
 			path = JPOINSA;
+			sourceTree = "<group>";
+		};
+		13CDE1AC1C5783C30099B4FC /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				13CDE1A81C5772D00099B4FC /* BeaconManager.swift */,
+				13CDE1B01C57882C0099B4FC /* PresentationManager.swift */,
+				13CDE1AD1C5784730099B4FC /* Extensions */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		13CDE1AD1C5784730099B4FC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				13CDE1AE1C57849A0099B4FC /* UIColor+JPOINSA.swift */,
+				13CDE1BA1C58C19E0099B4FC /* String+JPOINSA.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		13CDE1B41C5788C30099B4FC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				13CDE1B21C5788BE0099B4FC /* Presentation.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		13CDE1B51C57AF7F0099B4FC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				13CDE1B81C57C4DD0099B4FC /* PresentationCell.swift */,
+				13CDE1BC1C58C2160099B4FC /* PresentationsTable.swift */,
+				13CDE1C21C58C71C0099B4FC /* Components */,
+				13CDE1971C576ABA0099B4FC /* ViewController.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		13CDE1C21C58C71C0099B4FC /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				13CDE1C01C58C6320099B4FC /* CustomImageView.swift */,
+				13CDE1BE1C58C52E0099B4FC /* CustomLabel.swift */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		CC366D5C825BE88D174BE52D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C198CE3138ED5FFCCF3CE75 /* Pods_JPOINSA.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D23C2C50EB39996232613737 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8BB5F182940F86DA694C336A /* Pods-JPOINSA.debug.xcconfig */,
+				026E829480EEB59626235F7F /* Pods-JPOINSA.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +161,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13CDE1A41C576ABA0099B4FC /* Build configuration list for PBXNativeTarget "JPOINSA" */;
 			buildPhases = (
+				2EFC8D3AE04A697D7495EB44 /* Check Pods Manifest.lock */,
 				13CDE18E1C576AB90099B4FC /* Sources */,
 				13CDE18F1C576AB90099B4FC /* Frameworks */,
 				13CDE1901C576AB90099B4FC /* Resources */,
+				ED40512F1A00D7D58875D2B2 /* Embed Pods Frameworks */,
+				A01F6999EF045A3A7ECC9B6E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,17 +217,73 @@
 			files = (
 				13CDE1A01C576ABA0099B4FC /* LaunchScreen.storyboard in Resources */,
 				13CDE19D1C576ABA0099B4FC /* Assets.xcassets in Resources */,
-				13CDE19B1C576ABA0099B4FC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2EFC8D3AE04A697D7495EB44 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A01F6999EF045A3A7ECC9B6E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JPOINSA/Pods-JPOINSA-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED40512F1A00D7D58875D2B2 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JPOINSA/Pods-JPOINSA-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		13CDE18E1C576AB90099B4FC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13CDE1B31C5788BE0099B4FC /* Presentation.swift in Sources */,
+				13CDE1BF1C58C52E0099B4FC /* CustomLabel.swift in Sources */,
+				13CDE1BD1C58C2160099B4FC /* PresentationsTable.swift in Sources */,
+				13CDE1B11C57882C0099B4FC /* PresentationManager.swift in Sources */,
+				13CDE1AF1C57849A0099B4FC /* UIColor+JPOINSA.swift in Sources */,
+				13CDE1A91C5772D00099B4FC /* BeaconManager.swift in Sources */,
+				13CDE1B91C57C4DD0099B4FC /* PresentationCell.swift in Sources */,
+				13CDE1C11C58C6320099B4FC /* CustomImageView.swift in Sources */,
+				13CDE1BB1C58C19E0099B4FC /* String+JPOINSA.swift in Sources */,
 				13CDE1981C576ABA0099B4FC /* ViewController.swift in Sources */,
 				13CDE1961C576AB90099B4FC /* AppDelegate.swift in Sources */,
 			);
@@ -143,14 +292,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		13CDE1991C576ABA0099B4FC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				13CDE19A1C576ABA0099B4FC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		13CDE19E1C576ABA0099B4FC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -247,23 +388,27 @@
 		};
 		13CDE1A51C576ABA0099B4FC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BB5F182940F86DA694C336A /* Pods-JPOINSA.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JPOINSA/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gautierdelorme.JPOINSA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = JPOINSA/ObjCBridge.h;
 			};
 			name = Debug;
 		};
 		13CDE1A61C576ABA0099B4FC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 026E829480EEB59626235F7F /* Pods-JPOINSA.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JPOINSA/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gautierdelorme.JPOINSA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = JPOINSA/ObjCBridge.h;
 			};
 			name = Release;
 		};
@@ -286,6 +431,7 @@
 				13CDE1A61C576ABA0099B4FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
